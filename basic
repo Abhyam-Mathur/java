@@ -1,4 +1,6 @@
-#include<Stdio.h>
-int main(){
-printf("Enter the world, hello friend");
+class start
+{
+public static void main()
+{
+System.out.ptintln("hello welcome);
 }
