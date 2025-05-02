@@ -1,6 +1,6 @@
 class University {
-    static String universityName = "ABC University"; // Static variable (shared)
-    String studentName; // Non-static variable (unique per instance)
+    static String universityName = "ABC University"; 
+    String studentName; 
 
     public University(String studentName) {
         this.studentName = studentName;
@@ -23,7 +23,7 @@ class University {
         student1.displayStudentDetails();
         student2.displayStudentDetails();
 
-        universityName = "UPES University"; // Changing static variable affects all objects
+        universityName = "UPES University";
 
         System.out.println("\nAfter changing university name:");
         student1.displayStudentDetails();
